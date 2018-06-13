@@ -1,0 +1,14 @@
+/*!
+This is a modification to modern-business.css template
+Made by Kyle Vanderwiel
+*/
+
+.bg-dark{
+    background-color: rgba(140, 186, 0, .75)!important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: slategray!important;
+}

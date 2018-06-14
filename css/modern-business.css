@@ -13,15 +13,16 @@ body {
     padding-top: 56px;
   }
 }
-
 .carousel-item {
   height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #000000;
+  text-shadow: 2px 2px #000000;
 }
 
 .portfolio-item {

@@ -26,7 +26,7 @@
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
+      <div class="container" >
         <a class="navbar-brand" href="index.html">Kyle Vanderwiel</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,10 +41,10 @@
                 Portfolio
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolioManyItemTemplate.html">Digital Games</a>
-                <a class="dropdown-item" href="portfolioManyItemTemplate.html">Tabletop Games</a>
-                <a class="dropdown-item" href="portfolioManyItemTemplate.html">Web Apps</a>
-                <a class="dropdown-item" href="PortforlioCompany.html">Companies</a>
+                <a class="dropdown-item" href="digital.html">Digital Games</a>
+                <a class="dropdown-item" href="tableTop.html">Tabletop Games</a>
+                <a class="dropdown-item" href="webApps.html">Web Apps</a>
+                <a class="dropdown-item" href="lucidityVR.html">LucidityVR</a>
               </div>
             </li>
             <li class="nav-item">
@@ -61,14 +61,14 @@
             </li>
             </li>
             <li class="nav-item">
-              <a class="btn btn-secondary btn-block" href="#">Resume Download</a>
+              <a class="btn btn-secondary btn-block" href="media/resume/KyleVanderwielResume2018v3.pdf">Resume Download</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header>
+ 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,21 +80,21 @@
           <div class="carousel-item active" style="background-image: url('media/images/GasStationFinder2_1900x1080.png')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Gas Station Finder(Web App)</h3>
-              <p>This is a description for the first slide.</p>
+              <p>A simple and easy to use tool for finding the cheapest gas station near you.</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
           <div class="carousel-item" style="background-image: url('media/images/EggGameNestScene.png')">
             <div class="carousel-caption d-none d-md-block">
               <h3>Egg Game</h3>
-              <p>This is a description for the second slide.</p>
+              <p>Battle against your friends using the physics of an egg. Last one still in the arena wins.</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item" style="background-image: url('media/images/TheAttemptGameScreen.png')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Medic!</h3>
-              <p>This is a description for the third slide.</p>
+              <h3>The Attempt</h3>
+              <p>Navigate through the maze collecting keys to unlock the hatch before the monster catches you.</p>
             </div>
           </div>
         </div>
@@ -107,8 +107,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </header>
-
+      
     <!-- Page Content -->
     <div class="container">
       <hr>
@@ -118,34 +117,34 @@
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="media/images/GasStationFinder2_700x400.png" alt=""></a>
+            <a href="projects/webApps/gasStationFinder.html"><img class="card-img-top" src="media/images/GasStationFinder2_700x400.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Gas Station Finder<br>(Web App)</a>
+                <a href="projects/webApps/gasStationFinder.html">Gas Station Finder<br>(Web App)</a>
               </h4>
-              <p class="card-text"></p>
+              <p class="card-text">This Web based tool uses bing Maps and an external database to find the cheapest gas station near you.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="media/images/EggGameNestScene700x400.png" alt=""></a>
+            <a href="projects/digitalGames/eggGame.html"><img class="card-img-top" src="media/images/EggGameNestScene700x400.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Egg Game</a>
+                <a href="projects/digitalGames/eggGame.html">Egg Game</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">A combination between local multiplayer and fun and wacky controls. This game pits four players against one another to see who can bump the others out of the nest and survive.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="media/images/TheAttemptGameScreen700x400.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Medic!</a>
+                <a href="#">The Attempt</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <p class="card-text">This game uses AI for a single enemy that hunts the player as they search the maze for keys and the exit.</p>
             </div>
           </div>
         </div>
@@ -160,7 +159,7 @@
           <p>Interested in a cooperative educational or short term position in the design, development, and testing of interactive software products. Available June 2018 - January 2019</p>
         </div>
         <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Resume Download</a>
+          <a class="btn btn-lg btn-secondary btn-block" href="media/resume/KyleVanderwielResume2018v3.pdf">Resume Download</a>
         </div>
       </div>
 
